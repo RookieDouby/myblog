@@ -1,0 +1,36 @@
+{
+	"name": "demo",
+	"description": "A Vue.js project",
+	"author": "zhd1109@qq.com",
+	"private": true,
+	"scripts": {
+		"demo01-dev": "webpack-dev-server --inline --hot --config demo01/webpack.config.js --content-base demo01 --history-api-fallback",
+		"demo01-build": "cross-env NODE_ENV=production webpack --config demo01/webpack.config.js --progress --hide-modules"
+	},
+	"dependencies": {
+		"vue": "^1.0.0",
+		"babel-runtime": "^6.0.0"
+	},
+	"devDependencies": {
+		"babel-core": "^6.0.0",
+		"babel-loader": "^6.0.0",
+		"babel-plugin-transform-runtime": "^6.0.0",
+		"babel-preset-es2015": "^6.0.0",
+		"babel-preset-stage-2": "^6.0.0",
+		"cross-env": "^1.0.6",
+		"file-loader": "^0.8.4",
+		"json-loader": "^0.5.4",
+		"url-loader": "^0.5.7",
+		"vue-hot-reload-api": "^1.2.0",
+		"vue-html-loader": "^1.0.0",
+		"vue-loader": "^8.2.1",
+		"vue-style-loader": "^1.0.0",
+		"vue-router": "^0.7.13",
+		"webpack": "^1.12.2",
+		"webpack-dev-server": "^1.12.0",
+		"css-loader": "^0.23.0",
+        "sass-loader":"^3.2.0",
+        "style-loader":"^0.13.1",
+        "node-sass":"^3.8.0"
+	}
+}

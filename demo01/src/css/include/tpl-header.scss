@@ -1,0 +1,24 @@
+.tpl-header {
+    height:50px;
+    background-color:lightblue;
+    position:fixed;
+    top:0;
+    width:100%;
+    .avatar {
+        height:50px;
+        line-height:50px;
+        padding:0px 50px;
+    }
+    .navigation{
+        .navigation-item {
+            float:left;
+            position:relative;
+            & > a {
+                display:inline-block;
+                padding:0 10px;
+                height:50px;
+                line-height:50px;
+            }
+        }
+    }
+}

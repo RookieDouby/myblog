@@ -1,0 +1,19 @@
+@import "./mixins.scss";
+
+%clearfix {
+    @include clearfix;
+}
+
+.clearfix {
+    @extend %clearfix;
+}
+
+.float {
+    .left {
+        float:left;
+    }
+    .right {
+        float:right;
+    }
+    @extend %clearfix;
+}
